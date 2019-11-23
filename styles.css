@@ -176,8 +176,9 @@ aside {
     width: 50%;
     left: 25px;
     bottom: 0;
-    border-bottom: 4px solid #feaa0a;
-    border-radius: 5px 5px 0 0/100% 100% 0 0; /*not working in firefox*/  
+    border-top: 4px solid #feaa0a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
 }
 
 main {
